@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe project </title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <a href="#" onclick="hideSidebar()" class="cut" height="30px"><img src="cut.svg" height="30px"></a>
+                <li><a href="#">Recipe hold</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" onclick="show_recipe()">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" onclick="goToFooter()">Contect</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Recipe hold</a></li>
+                <li class="hideonMobile"><a href="#">Home</a></li>
+                <li class="hideonMobile"><a href="#" onclick="show_recipe()">Recipes</a></li>
+                <li class="hideonMobile"><a href="about.html">About</a></li>
+                <li class="hideonMobile"><a href="#" onclick="goToFooter()">Contect</a></li>
+                <a href="#" class="menu-btn" onclick="showSidebar()"><img src="menu.svg"></a>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-search">
+            <div class="bg-cover">
+                <input type="text" placeholder="Enter your recipe name">
+                <br>
+                <div class="bg-cover-text">
+                    <h2>See Your Faviorate Breakfast/dinner/lunch recipe here</h2>
+                    <p>This website show you different kinds of recipe which you can cook and eat. This website is
+                        absolutly
+                        free to use and any one can use this website for cooking</p>
+                    <p>This website is specially made for those womans or mans who can't diside what to make. This
+                        website
+                        helps them to make something really tasty. </p>chicken and broccoli penne pasta
+                </div>
+
+            </div>
+            <div class="recipes">
+                <h1>Recipes</h1>
+                <div class="first-recipe">
+                    <img src="images (1).jpg" alt="maalpua" height="150px" width="150px">
+                    <div class="first-recipe-text">
+                        <h2>Maalpua</h2>
+                        <p>Eat a healthy wealthy nashta called maalpua.This breakfast can become one of your faviorate
+                            breakfast
+                            because Its taste is so good as well as its smell.It can make your day perfect because its
+                            taste.
+                            Click on the view button to take that taste.</p>
+                        <p><b>Cooking time:- In morning(7:00AM - 11:00AM)</b></p>
+                        <p>Difficulty Level:- Medium</p>
+                    </div>
+                    <button onclick="show_malpuaa()">View recipe</button>
+                </div>
+                <div class="second-recipe">
+                    <img src="images (2).jpg" alt="Guliapaa" height="150px" width="150px">
+                    <div class="second-recipe-text">
+                        <h2>Guliapaa</h2>
+                        <p>Eat a healthy wealthy nashta called Guliapaa.This breakfast can become one of your faviorate
+                            breakfast
+                            because Its taste is so good as well as it is crispy.It can make your day perfect because of
+                            its
+                            crispeeness.
+                            Click on the view button to take that taste of this crispy breakfast.</p>
+                        <p><b>Cooking time:- In morning(7:00AM - 11:00AM)</b></p>
+                        <p>Difficulty Level:- Medium</p>
+                    </div>
+                    <button onclick="show_guliapa()">View recipe</button>
+                </div>
+                <div class="third-recipe">
+                    <img src="images (3).jpg" alt="Belgian waffles" height="150px" width="150px">
+                    <div class="third-recipe-text">
+                        <h2>Belgian waffles</h2>
+                        <p>Eat a tasty breakfast called Belgian waffles.This breakfast is very sweet and tasty as it is
+                            seems.
+                            Its taste is so good as well as it is crispy.It can make your movement perfect because of
+                            its
+                            crispeeness and sweetness.
+                            Click on the view button to take that taste of this sweet breakfast.</p>
+                        <p><b>Cooking time:- In morning(7:00AM - 11:00AM)</b></p>
+                        <p>Difficulty Level:- Medium</p>
+                    </div>
+                    <button onclick="show_wuf()">View recipe</button>
+                </div>
+                <div class="fourth-recipe">
+                    <img src="images.jpg" alt="Channa masala" height="150px" width="150px">
+                    <div class="fourth-recipe-text">
+                        <h2>Channa masala</h2>
+                        <p>Eat a healty veg channa masala sabji for your lunch and dinner.Its taste is like spicy and
+                            tasty.Make
+                            It if you are pursuing to eat something spicy and tasty in your lunch or dinner.Click on
+                            view
+                            button
+                            to see full recipe</p>
+                        <p><b>Cooking time:-In lunch or dinner</b></p>
+                        <p>Difficulty Level:- hard</p>
+                    </div>
+                    <button onclick="Show_chana()">View recipe</button>
+                </div>
+                <div class="fifth-recipe">
+                    <img src="quick_chana.jpg" alt="quick Channa masala" height="150px" width="150px">
+                    <div class="fifth-recipe-text">
+                        <h2>Quick Channa masala</h2>
+                        <p>Eat a healty easy to make quick channa masala sabji for your lunch.It is so tasty.Make
+                            It if you are looking for eat something sweet and spicy sabji in your lunch.Click on view
+                            button
+                            to see full recipe</p>
+                        <p><b>Cooking time:-In lunch</b></p>
+                        <p>Difficulty Level:- Easy</p>
+                    </div>
+                    <button onclick="show_quick_chana()">View recipe</button>
+                </div>
+                <div class="sixth-recipe">
+                    <img src="pasta.jpg" alt="chicken and broccoli penne pasta" height="150px" width="150px">
+                    <div class="sixth-recipe-text">
+                        <h2>chicken and broccoli penne pasta</h2>
+                        <p>Eat a healty nonveg breakfast.It is so creamy and tasty.Make
+                            It if you are looking for eat something nonveg and spicy in your breakfast.Click on view
+                            button
+                            to see full recipe</p>
+                        <p><b>Cooking time:-Breakfast</b></p>
+                        <p>Difficulty Level:- Medium</p>
+                    </div>
+                    <button onclick="show_pasta()">View recipe</button>
+                </div>
+            </div>
+    </main>
+    <footer id="contect">
+        <h1>Contect us:- </h1>
+        <p>Type your email and contect number here:- </p>
+        <input type="text" id="email" placeholder="Please Enter email here:- ">
+        <input type="text" id="number" placeholder="Please Enter your contect number here:-">
+        <button onclick="cheakValid()">Enter</button>
+    </footer>
+</body>
+<script src="recipe.js"></script>
+
+</html>

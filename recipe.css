@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(189, 56, 56);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+    display: Flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(219, 110, 110, 0.2);
+    backdrop-filter: blur(10px);
+
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    height: 50px;
+    color: black;
+
+}
+
+.sidebar .cut {
+    padding-left: 190px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .hideonMobile {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+}
+
+.container-search {
+    height: 500px;
+    width: 100%;
+    background-image: url("pasta.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-cover input {
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    border-radius: 10vh;
+    padding-left: 10px;
+    border: none;
+    top: 90px;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+}
+
+.bg-cover-text {
+    color: white;
+    position: absolute;
+    top: 200px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.bg-cover input:active {
+    border: none;
+    transform: scale(0.9);
+    transition-duration: 0.1s;
+}
+
+@media(max-width:600px) {
+    .bg-cover {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .bg-cover input {
+        height: 10%;
+        width: 70%;
+    }
+
+
+
+    .container-search {
+        width: 100%;
+        position: relative;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .bg-cover-text {
+        font-size: 12px;
+        width: 80%;
+    }
+}
+
+.recipes {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.recipes h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+.recipes .first-recipe {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.first-recipe .first-recipe-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 79%;
+    align-items: start;
+}
+
+.first-recipe button {
+    height: 90px;
+    width: 7%;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 2px;
+    font-size: 15px;
+
+}
+
+.first-recipe button:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.first-recipe button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+.recipes .second-recipe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.second-recipe .second-recipe-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 79%;
+    align-items: start;
+}
+
+.second-recipe button {
+    height: 90px;
+    width: 7%;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.second-recipe button:hover {
+    background-color: rgb(192, 190, 190);
+}
+
+.second-recipe button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+.recipes .third-recipe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.third-recipe .third-recipe-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 79%;
+    align-items: start;
+}
+
+.third-recipe button {
+    height: 90px;
+    width: 7%;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.third-recipe button:hover {
+    background-color: rgb(184, 182, 182);
+}
+
+.third-recipe button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+.recipes .fourth-recipe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.fourth-recipe .fourth-recipe-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 79%;
+    align-items: start;
+}
+
+.fourth-recipe button {
+    height: 90px;
+    width: 7%;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.fourth-recipe button:hover {
+    background-color: rgb(185, 184, 184);
+}
+
+.fourth-recipe button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+.recipes .fifth-recipe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.fifth-recipe .fifth-recipe-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 79%;
+    align-items: start;
+}
+
+.fifth-recipe button {
+    height: 90px;
+    width: 7%;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.fifth-recipe button:hover {
+    background-color: rgb(196, 195, 195);
+}
+
+.fifth-recipe button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+.recipes .sixth-recipe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.sixth-recipe .sixth-recipe-text {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 79%;
+    align-items: start;
+}
+
+.sixth-recipe button {
+    height: 90px;
+    width: 7%;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.sixth-recipe button:hover {
+    background-color: rgb(196, 194, 194);
+}
+
+.sixth-recipe button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+
+/*Media query*/
+@media (max-width:600px) {
+    .nav {
+        font-size: 12px;
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .recipes {
+        font-size: 10px;
+    }
+
+    .recipes img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .recipes button {
+        height: 40px;
+        width: 80px;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+
+
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+
+    gap: 10px;
+}
+
+footer input {
+    height: 30px;
+    width: 80%;
+}
+
+footer button {
+    height: 30px;
+    width: 30%;
+}
+
+footer h1 {
+    font-size: 25px;
+}
+
+main {
+    height: 1590px;
+}
