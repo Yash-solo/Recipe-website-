@@ -1,14 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 nav {
     width: 100%;
-    background-color: rgb(189, 56, 56);
+    background-color: rgb(227, 64, 64);
     color: white;
     font-size: 20px;
-    padding: 10px;
+    font-family: "Bobby-Jones-Soft-Outline", sans-serif !important;
+    font-weight: 700;
+    padding: 6px;
 }
 
 nav ul {
@@ -22,7 +25,9 @@ nav ul {
 nav li {
     height: 50px;
 }
-
+a{
+    cursor: pointer;
+}
 nav a {
     height: 100%;
     text-decoration: none;
@@ -86,83 +91,31 @@ nav li:first-child {
     }
 }
 
-.container-search {
-    height: 500px;
-    width: 100%;
-    background-image: url("pasta.jpg");
+.mainPic{
+    background-image:url("Images/pasta.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
 }
-
-.bg-cover {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.MainCover{
+    padding:10px 100px 10px 100px;
 }
-
-.bg-cover input {
-    height: 10%;
-    width: 50%;
-    position: absolute;
-    border-radius: 10vh;
-    padding-left: 10px;
-    border: none;
-    top: 90px;
-    box-shadow: 2px 2px 2px rgb(12, 12, 12);
-}
-
-.bg-cover-text {
-    color: white;
-    position: absolute;
-    top: 200px;
-    width: 50%;
-    font-size: 20px;
-}
-
-.bg-cover input:active {
-    border: none;
-    transform: scale(0.9);
-    transition-duration: 0.1s;
-}
-
-@media(max-width:600px) {
-    .bg-cover {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
+@media (max-width:729px){
+    .MainCover{
+        padding:10px 10px 10px 10px;
     }
-
-    .bg-cover input {
-        height: 10%;
-        width: 70%;
+    .SecondDivMain{
+        padding:5px 5px 5px 5px;
     }
-
-
-
-    .container-search {
-        width: 100%;
-        position: relative;
-
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .bg-cover-text {
-        font-size: 12px;
-        width: 80%;
+    .favres{
+    padding:0px 0px 5px 0px;
+    overflow: hidden;
+    height:155px;  
     }
 }
-
+.SecondDivMain{
+    padding:10px 25px 10px 25px;
+}
 .recipes {
     height: auto;
     width: 100%;
@@ -176,7 +129,11 @@ nav li:first-child {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 10px;
 }
-
+.favres{
+    padding:0px 0px 5px 0px;
+    overflow: hidden;
+    height:170px;
+}
 .recipes .first-recipe {
 
     display: flex;
