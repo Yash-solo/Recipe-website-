@@ -12,20 +12,20 @@ function show_malpuaa() {
 
 }
 function show_guliapa() {
-    window.location.href = "otherPages/guliapa_process.html"
+    window.location.href = 'otherPages/guliapa_process.html'
 
 }
 function show_wuf() {
-    window.location.href = "otherPages/wuf_process.html"
+    window.location.href = 'otherPages/wuf_process.html'
 }
 function Show_chana() {
     window.location.href = "otherPages/chana_process.html"
 }
 function show_quick_chana() {
-    window.location.href = "otherPages/quick_chana_process.html"
+    window.location.href = 'otherPages/quick_chana_process.html'
 }
 function show_pasta() {
-    window.location.href = "otherPages/pasta_process.html"
+    window.location.href = 'otherPages/pasta_process.html'
 }
 function show_recipe() {
     document.querySelector('.recipes').scrollIntoView({

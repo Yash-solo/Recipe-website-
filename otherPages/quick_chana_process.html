@@ -19,25 +19,33 @@
 
         nav h1 {
             padding: 15px;
+            width:100%;
+            text-align: center;
+            font-family: monospace;
+            color:rgb(34, 34, 34);
+            box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
         }
 
         .container_photo {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 20px;
+            padding:30px;
         }
-
+        .container_photo img{
+            border:1px solid #ddd;
+            border-radius: 25px;
+            box-shadow: 0px 20px 25px rgba(0,0,0,0.5);
+        }
         .ingredients-list {
-            margin: 20px;
+            padding:20px;
             font-size: 20px;
 
         }
-
-        @media (max-width:400px) {
-            .ingredients-list {
-                height: 1200px;
-            }
+        .ingredients-list h3{
+           font-family:monospace;
+           color:rgb(150, 8, 8);
+           font-size:25px;
         }
     </style>
 </head>
@@ -50,16 +58,16 @@
     <section class="ingredients-list">
 
         <h3>Step by Step full process</h3>
-        <p><b>• Base:</b>1 large onion (diced), 2–4 cloves garlic (minced), and 1-inch fresh ginger (grated).<br>
-            <b>• Chickpeas:</b> 2 cans (15 oz each) or 1 cup dried chickpeas (soaked overnight and boiled).<br>
-            <b>• Tomato: </b>1 can (14 oz) crushed or chopped tomatoes, or 2 fresh Roma tomatoes.
-            <br><b>• Spices: </b> Cumin seeds, ground coriander, turmeric, chili powder (Kashmiri or cayenne), and garam
+        <p><b style="color:rgb(7, 21, 98)">• Base:</b>1 large onion (diced), 2–4 cloves garlic (minced), and 1-inch fresh ginger (grated).<br>
+            <b style="color:rgb(7, 21, 98)">• Chickpeas:</b> 2 cans (15 oz each) or 1 cup dried chickpeas (soaked overnight and boiled).<br>
+            <b style="color:rgb(7, 21, 98)">• Tomato: </b>1 can (14 oz) crushed or chopped tomatoes, or 2 fresh Roma tomatoes.
+            <br><b style="color:rgb(7, 21, 98)">• Spices: </b> Cumin seeds, ground coriander, turmeric, chili powder (Kashmiri or cayenne), and garam
             masala.
-            <br><b>• Finishers:</b>Fresh cilantro (coriander), lemon juice, and salt to taste
+            <br><b style="color:rgb(7, 21, 98)">• Finishers:</b>Fresh cilantro (coriander), lemon juice, and salt to taste
         </p>
         <br>
-        <p>Preparation time:30min</p>
-        <p>Serving-size: 1 bowl</p>
+        <p style="color:rgb(18, 51, 239)">Preparation time:30min</p>
+        <p style="color:rgb(18, 51, 239)">Serving-size: 1 bowl</p>
     </section>
 </body>
 
