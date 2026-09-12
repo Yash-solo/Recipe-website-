@@ -24,7 +24,7 @@
             <ul>
                 <li><a href="#">Recipe hold</a></li>
                 <li class="hideonMobile"><a href="#">Home</a></li>
-                <li class="hideonMobile"><a href="#" onclick="show_recipe()">Recipes</a></li>
+                <li class="hideonMobile"><a href="#" onclick="showRecipes()">Recipes</a></li>
                 <li class="hideonMobile"><a href="otherPages/about.html">About</a></li>
                 <li><a class="hideonMobile" id="contectus">Contect</a></li>
                 <a href="#" class="menu-btn" onclick="showSidebar()"><img src="Images/menu.svg"></a>
@@ -37,12 +37,12 @@
            <div class="flex flex-col md:flex-row MainCover text-white text-2xl w-full h-full bg-[rgba(0,0,0,0.5)]">
             <!-- Section text is here -->
                 <div class="w-full md:w-1/2 h-full flex flex-col justify-center items-center gap-5">
-                    <h1 class="font-serif font-bold text-3xl md:text-5xl">Make whatever recipe you wants</h1>
-                    <h1 class="text-sm md:text-lg">Just search and take your recipe with complete guidence don't waste food in your frige use it to make something tasty and healthy.</h1>
+                    <h1 class="font-serif font-bold text-3xl md:text-5xl">“Cook something delicious with the ingredients you have.”</h1>
+                    <h1 class="text-sm md:text-lg">Search recipes, follow clear step-by-step instructions, and reduce food waste.</h1>
                 </div>
                 <!-- faviorate recipes show case -->
                 <div class="w-full md:w-1/2 h-full flex flex-col justify-center items-center gap-4">
-                    <h1 class=" font-mono">Your faviorate recipe will see here</h1>
+                    <h1 class=" font-mono">Your faviorate recipe will appear here</h1>
                     <div class=" overflow-y-auto grid grid-cols-3 md:grid-cols-2  gap-3 SecondDivMain h-48 md:h-3/4 w-full md:w-95/100 lg:w-3/4 shadow-[2px_10px_14px_rgba(0,0,0,0.5)] bg-[rgba(255,255,255,0.3)] rounded-2xl">
                         <div class="favres overflow-hidden rounded-2xl p-2 flex flex-col gap-1.5 items-center  w-auto  bg-white">
                             <img class="h-26 md:h-28 object-cover w-full " src="Images/chidva.jpg" alt="">
@@ -102,59 +102,14 @@
         </div>
     </div>
     <!-- Recipes showcase -->
-    <div class="recipeRecomment  w-full flex-col  md:px-25 flex items-center justify-around gap-3">
-        <h1 class="text-2xl md:text-4xl font-mono">Recipe Recommend for You</h1>
-        <div class="w-full max-w-250 border-[#ddd] rounded-2xl border p-2 flex items-center justify-around gap-2">
-            <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="Images/images (1).jpg" alt="">
-            <div class="flex flex-col items-center justify-around gap-1">
-                <h1 class="font-semibold md:text-2xl">Maalpua</h1>
-                <p>Eat a healthy wealthy nashta Maalpua</p>
-            </div>
-            <button onclick = "window.location.href = 'otherPages/malpua_process.html'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
-        </div>
-        <div class="w-full max-w-250 border-[#ddd] rounded-2xl border p-2 flex items-center justify-around gap-2">
-            <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="Images/images (2).jpg" alt="">
-            <div class="flex flex-col items-center justify-around gap-1">
-                <h1 class="font-semibold md:text-2xl">Guliapaa</h1>
-                <p>Eat a healthy wealthy nashta Guliapaa</p>
-            </div>
-            <button onclick=" window.location.href = 'otherPages/guliapa_process.html'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
-        </div>
-        <div class="w-full max-w-250 border-[#ddd] rounded-2xl border p-2 flex items-center justify-around gap-2">
-            <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="Images/images (3).jpg" alt="">
-            <div class="flex flex-col items-center justify-around gap-1">
-                <h1 class="font-semibold md:text-2xl">Belgian waffels</h1>
-                <p>Eat a healthy wealthy nashta Belgian waffels</p>
-            </div>
-            <button onclick = " window.location.href = 'otherPages/wuf_process.html'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
-        </div>
-        <div class="w-full max-w-250 border-[#ddd] rounded-2xl border p-2 flex items-center justify-around gap-2">
-            <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="Images/images.jpg" alt="">
-            <div class="flex flex-col items-center justify-around gap-1">
-                <h1 class="font-semibold md:text-2xl">Chana Masala</h1>
-                <p>Eat a healthy wealthy nashta Chana Masala</p>
-            </div>
-            <button onclick = 'window.location.href = "otherPages/chana_process.html"' class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
-        </div>
-        <div class="w-full max-w-250 border-[#ddd] rounded-2xl border p-2 flex items-center justify-around gap-2">
-            <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="Images/quick_chana.jpg" alt="">
-            <div class="flex flex-col items-center justify-around gap-1">
-                <h1 class="font-semibold md:text-2xl">Quick Chana</h1>
-                <p>Eat a healthy wealthy nashta Quick Chana</p>
-            </div>
-            <button onclick="window.location.href = 'otherPages/quick_chana_process.html'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
-        </div>
-        <div class="w-full max-w-250 border-[#ddd] rounded-2xl border p-2 flex items-center justify-around gap-2">
-            <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="Images/pasta.jpg" alt="">
-            <div class="flex flex-col items-center justify-around gap-1">
-                <h1 class="font-semibold md:text-2xl">chicken and broccoli penne pasta</h1>
-                <p>Eat a healthy wealthy recipe</p>
-            </div>
-            <button onclick="window.location.href = 'otherPages/pasta_process.html'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
-        </div>
+    <div id="recipeRecomment" class="recipeRecomment  w-full flex-col  md:px-25 flex items-center justify-around gap-3">
+        <h1 class="text-2xl md:text-4xl font-mono">Recommended for You</h1>
     </div>
     <footer class=" w-full  flex items-end justify-end gap-3">
-        <div class = " shadow-[0px_10px_10px_rgba(0,0,0,0.5)] rounded-[20px_20px_0px_0px] h-25 w-full bg-amber-100"></div>
+        <div class = " shadow-[0px_10px_10px_rgba(0,0,0,0.5)] rounded-[20px_20px_0px_0px] h-25 w-full bg-amber-100">
+            <span>Recipe hold</span>
+        </div>
+       
     </footer>
     <script src="recipe.js"></script>
     <script src="script.js"></script>

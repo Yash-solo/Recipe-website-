@@ -64,8 +64,6 @@ nav li:first-child {
 }
 footer{
     padding:12px 100px 0px 100px;
-    background:linear-gradient(to right, rgb(200, 5, 5),rgb(210, 138, 4));
-    backdrop-filter: blue(25px);
 }
 .sidebar li {
     width: 100%;
@@ -103,6 +101,30 @@ footer{
 .recipeRecomment div button{
     padding:10px;
 }
+footer div{
+    padding:30px;
+    font-size:25px;
+    font-weight: bold;
+}
+footer div span{
+    background:linear-gradient(to right,#F9D423 ,#ff393c,#F9D423);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size:400% 100%;
+    color:transparent;
+    animation:glowing 50s linear infinite;
+}
+@keyframes glowing {
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position:400% 0%;
+    }
+    100%{
+        background-position:0% 0%;
+    }
+}
 .mainPic{
     background-image:url("Images/pasta.jpg");
     background-size: cover;
@@ -115,6 +137,9 @@ footer{
 @media (max-width:729px){
     footer{
         padding:12px 12px 0px 12px;
+    }
+    footer div{
+        padding:12px;
     }
     .MainCover{
         padding:10px 10px 10px 10px;

@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "RecipeName":"Maalpua",
+        "RecipeMessage":"Eat warm and sweety maalpua sweets.",
+        "RecipePic":"Images/images (1).jpg",
+        "ViewPage":"otherPages/malpua_process.html"
+    },
+    {
+        "id":2,
+        "RecipeName":"Guliapaa",
+        "RecipeMessage":"Eat warm and tasty Guliapaa Recipe",
+        "RecipePic":"Images/images (2).jpg",
+        "ViewPage":"otherPages/guliapa_process.html"
+    },
+    {
+        "id":3,
+        "RecipeName":"Belgian waffels",
+        "RecipeMessage":"Eat warm and sweety Belgian waffels sweets.",
+        "RecipePic":"Images/images (3).jpg",
+        "ViewPage":"otherPages/wuf_process.html"
+    },
+    {
+        "id":4,
+        "RecipeName":"Chana Masala",
+        "RecipeMessage":"Eat warm and tasty Chana Masala recipe",
+        "RecipePic":"Images/images.jpg",
+        "ViewPage":"otherPages/chana_process.html"
+    },
+    {
+        "id":5,
+        "RecipeName":"Quick Chana",
+        "RecipeMessage":"try warm and tasty Quick Chana recipe",
+        "RecipePic":"Images/quick_chana.jpg",
+        "ViewPage":"otherPages/quick_chana_process.html"
+    },
+    {
+        "id":6,
+        "RecipeName":"chicken and broccoli penne pasta",
+        "RecipeMessage":"try making pasta .",
+        "RecipePic":"Images/pasta.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    }
+]
