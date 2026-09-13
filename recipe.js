@@ -27,9 +27,3 @@ function show_quick_chana() {
 function show_pasta() {
     window.location.href = 'otherPages/pasta_process.html'
 }
-function show_recipe() {
-    document.querySelector('.recipes').scrollIntoView({
-        behavior: "smooth"
-    })
-}
-

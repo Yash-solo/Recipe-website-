@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe project </title>
     <link rel="stylesheet" href="recipe.css">
-    <link rel="stylesheet" href="./src/input.css">
-    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="stylesheet" href="src/output.css">
 </head>
 
 <body>
@@ -102,8 +102,18 @@
         </div>
     </div>
     <!-- Recipes showcase -->
-    <div id="recipeRecomment" class="recipeRecomment  w-full flex-col  md:px-25 flex items-center justify-around gap-3">
+    <div class="recipeRecomment  w-full flex-col  md:px-25 flex items-center justify-around gap-3">
         <h1 class="text-2xl md:text-4xl font-mono">Recommended for You</h1>
+        <div class=" flex gap-2 items-center justify-around">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="13" cy="13" r="8"></circle>
+                <line x1="23" y1="23" x2="18.65" y2="18.65"></line>
+            </svg>
+            <input type="text" class="RecipeSearch md:w-150 w-60 rounded-[25px_5px_25px_5px] border shadow-[0px_5px_10px_rgba(0,0,0,0.3)] border-[#ddd] text-gray-900" placeholder="Search recipes.........">
+        </div>
+        <div id="recipeRecomment" class="flex flex-col gap-4 ">
+
+        </div>
     </div>
     <footer class=" w-full  flex items-end justify-end gap-3">
         <div class = " shadow-[0px_10px_10px_rgba(0,0,0,0.5)] rounded-[20px_20px_0px_0px] h-25 w-full bg-amber-100">
@@ -111,8 +121,9 @@
         </div>
        
     </footer>
+    <script type = "module"src="fn.js"></script>
     <script src="recipe.js"></script>
-    <script src="script.js"></script>
+    <script type= "module"src="script.js"></script>
 </body>
 
 </html>

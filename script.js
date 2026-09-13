@@ -1,5 +1,5 @@
 //recipe container which will show recipes
-const recipeContainer =  document.querySelector('#recipeRecomment');
+export const recipeContainer =  document.querySelector('#recipeRecomment');
 
 //show recipe function which fetch recipes and show on the screen 
 async function showRecipes(){
