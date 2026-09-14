@@ -11,7 +11,8 @@ searchBox.addEventListener('keypress',async(e)=>{
         })
         recipeContainer.innerHTML = "";
         if(updateList.length ===0){
-            recipeContainer.innerHTML = "Not Found";
+            
+            recipeContainer.innerHTML = "<h1 class='text-[20px] font-bold md:text-2xl'>Not Found</h1>";
         }else{
             updateList.map((recipe)=>{
                 //create element 

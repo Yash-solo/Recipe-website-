@@ -23,7 +23,7 @@ async function showRecipes(){
         recipeContainer.appendChild(recipeUnit);
     })
 }
-//show recipes onload
+//Show all recipes onload timing
 window.onload = function() {
     showRecipes();
 };
