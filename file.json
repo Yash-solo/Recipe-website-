@@ -40,5 +40,251 @@
         "RecipeMessage":"try making pasta .",
         "RecipePic":"Images/pasta.jpg",
         "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":7,
+        "RecipeName":"daal fry",
+        "RecipeMessage":"try making daal fry .",
+        "RecipePic":"recipeImages/daal fry.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":8,
+        "RecipeName":"aalu matar",
+        "RecipeMessage":"eat warm and tasty sabji aalu matar",
+        "RecipePic":"recipeImages/aalu matar.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":9,
+        "RecipeName":"aalu naan",
+        "RecipeMessage":"try making aalu naan .",
+        "RecipePic":"recipeImages/aalu naan.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":10,
+        "RecipeName":"aalu paratha",
+        "RecipeMessage":"try making aalu paratha .",
+        "RecipePic":"recipeImages/aalu paratha.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":11,
+        "RecipeName":"baingan bharta",
+        "RecipeMessage":"try making bharta .",
+        "RecipePic":"recipeImages/Baingan-Bharta.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":12,
+        "RecipeName":"butter naan",
+        "RecipeMessage":"try making butter naan .",
+        "RecipePic":"recipeImages/butter naan.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":13,
+        "RecipeName":"butter roti",
+        "RecipeMessage":"try making butter roti .",
+        "RecipePic":"recipeImages/butter roti.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":14,
+        "RecipeName":"chana masala",
+        "RecipeMessage":"try making chana masala .",
+        "RecipePic":"recipeImages/chana masala.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":15,
+        "RecipeName":"chili missi roti",
+        "RecipeMessage":"try making chili missi roti .",
+        "RecipePic":"recipeImages/chili missi roti.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":16,
+        "RecipeName":"Chili lacha paratha",
+        "RecipeMessage":"try making chili lacha paratha .",
+        "RecipePic":"recipeImages/chili lacha paratha.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":16,
+        "RecipeName":"chili pyaaz lacha paratha",
+        "RecipeMessage":"try making chili pyaaz lacha paratha .",
+        "RecipePic":"recipeImages/chili pyaz lacha paratha.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":17,
+        "RecipeName":"chili roti",
+        "RecipeMessage":"try making chili roti .",
+        "RecipePic":"recipeImages/chili roti.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":18,
+        "RecipeName":"dahi",
+        "RecipeMessage":"try making dahi .",
+        "RecipePic":"recipeImages/dahi.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":19,
+        "RecipeName":"dal makhani",
+        "RecipeMessage":"try making dal makhani .",
+        "RecipePic":"recipeImages/dal makhani.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":20,
+        "RecipeName":"garlic naan",
+        "RecipeMessage":"try making garlic naan .",
+        "RecipePic":"recipeImages/garlic naan.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":21,
+        "RecipeName":"Jeera rice",
+        "RecipeMessage":"try making Jeera rice .",
+        "RecipePic":"recipeImages/jeera rice.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":22,
+        "RecipeName":"kadhai paneer",
+        "RecipeMessage":"try making kadhai paneer .",
+        "RecipePic":"recipeImages/kadahi panner.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":23,
+        "RecipeName":"lacha paratha",
+        "RecipeMessage":"try making lacha paratha .",
+        "RecipePic":"recipeImages/lacha paratha.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":24,
+        "RecipeName":"matar paneer",
+        "RecipeMessage":"try making matar paneer.",
+        "RecipePic":"recipeImages/matar paneer.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":24,
+        "RecipeName":"misi roti",
+        "RecipeMessage":"try making missi roti .",
+        "RecipePic":"recipeImages/misi roti.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":25,
+        "RecipeName":"mix subji",
+        "RecipeMessage":"try making mix subji .",
+        "RecipePic":"recipeImages/mix subji.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":26,
+        "RecipeName":"mix veg",
+        "RecipeMessage":"try making mix veg .",
+        "RecipePic":"recipeImages/mix veg.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":27,
+        "RecipeName":"onion paratha",
+        "RecipeMessage":"try making onion paratha .",
+        "RecipePic":"recipeImages/onion paratha.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":28,
+        "RecipeName":"palak paneer",
+        "RecipeMessage":"try making palak paneer .",
+        "RecipePic":"recipeImages/palak paneer.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":29,
+        "RecipeName":"palak",
+        "RecipeMessage":"try making palak .",
+        "RecipePic":"recipeImages/palak.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":30,
+        "RecipeName":"paneer burji",
+        "RecipeMessage":"try making paneer burji .",
+        "RecipePic":"recipeImages/paneer burji.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":31,
+        "RecipeName":"paneer naan",
+        "RecipeMessage":"try making paneer naan.",
+        "RecipePic":"recipeImages/paneer naan.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":32,
+        "RecipeName":"paneer paratha",
+        "RecipeMessage":"try making paneer paratha .",
+        "RecipePic":"recipeImages/paneer paratha.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":33,
+        "RecipeName":"plain naan",
+        "RecipeMessage":"try making plain naan .",
+        "RecipePic":"recipeImages/plain naan.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":34,
+        "RecipeName":"plain roti",
+        "RecipeMessage":"try making plain roti .",
+        "RecipePic":"recipeImages/plain roti.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":35,
+        "RecipeName":"pulav",
+        "RecipeMessage":"try making pulav .",
+        "RecipePic":"recipeImages/pulav.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":36,
+        "RecipeName":"rajma",
+        "RecipeMessage":"try making rajma .",
+        "RecipePic":"recipeImages/rajma.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":37,
+        "RecipeName":"rayta",
+        "RecipeMessage":"try making rayta .",
+        "RecipePic":"recipeImages/rayta.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":38,
+        "RecipeName":"shahi paneer",
+        "RecipeMessage":"try making shahi paneer .",
+        "RecipePic":"recipeImages/shahi paneer.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":39,
+        "RecipeName":"tandoori roti butter",
+        "RecipeMessage":"try making tandoori roti butter .",
+        "RecipePic":"recipeImages/tandoori roti butter.jpg",
+        "ViewPage":"otherPages/pasta_process.html"
     }
+
 ]
