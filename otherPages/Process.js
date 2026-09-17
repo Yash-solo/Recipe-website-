@@ -11,7 +11,7 @@ const recipeProcess = document.querySelector('.RecipeProcess');
 
 async function getRecipes(){
     //fetch recipes when you need to show recipe
-    const response = await fetch("./file.json");
+    const response = await fetch("../file.json");
     
     const data = await response.json();
     if(response.ok){
