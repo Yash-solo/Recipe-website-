@@ -285,6 +285,100 @@
         "RecipeMessage":"try making tandoori roti butter .",
         "RecipePic":"recipeImages/tandoori roti butter.jpg",
         "ViewPage":"otherPages/pasta_process.html"
+    },
+    {
+        "id":40,
+        "RecipeName":"Maalpua",
+        "RecipePic":"recipeImages/images (1).jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Maalpua"
+    },
+    {
+        "id":41,
+        "RecipeName":"Guliapaa",
+        "RecipePic":"recipeImages/images (2).jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Guliapaa"
+        
+    },
+    {
+        "id":42,
+        "RecipeName":"Bhindi Masala",
+        "RecipePic":"recipeImages/bhindi masala.jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Bhindi Masala"
+    },
+    {
+        "id":43,
+        "RecipeName":"Bhindi Fry",
+        "RecipePic":"recipeImages/bhindi Fry.jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Bhindi Fry"
+    
+    },
+    {
+        "id":44,
+        "RecipeName":"Bharwa Bhindi",
+        "RecipePic":"recipeImages/Bharawa bhindi.jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Bharawa Bhindi"
+    },
+    {
+        "id":45,
+        "RecipeName":"Bhindi Do Pyaza",
+        "RecipePic":"recipeImages/bhindi-do-pyaza-recipe.jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Bhindi Do Pyaza"
+    },
+    {
+        "id":46,
+        "RecipeName":"Tomato Bhindi",
+        "RecipePic":"recipeImages/bhindiMasalaWithTomatos.jpg",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Tomato Bhindi"
+    },
+    {
+        "id":47,
+        "RecipeName":"Karela Fry",
+        "RecipePic":"recipeImages/karelafry.webp",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Karela Fry"
+    },
+    {
+        "id":48,
+        "RecipeName":"Bharwa Karela",
+        "RecipePic":"recipeImages/bharwan-karela.webp",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Bharawa Karela"
+    },
+    {
+        "id":49,
+        "RecipeName":"Karela Pyaz ki Sabzi",
+        "RecipePic":"recipeImages/karela_Pyazz.webp",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Karela pyaz ki sabji"
+    },
+    {
+        "id":50,
+        "RecipeName":"Bottle Gourd (Lauki) Curry:",
+        "RecipePic":"recipeImages/laukysubji.webp",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Bottle Gourd Curry" 
+    },
+    {
+        "id":51,
+        "RecipeName":"Lauki Tomato Sabzi",
+        "RecipePic":"recipeImages/laukeyTomatosbji.webp",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Lauki Tomato Sabji"
+    },
+    {
+        "id":52,
+        "RecipeName":"Gourd (Tinda/Ridge Gourd) Masala",
+        "RecipePic":"recipeImages/tinda.webp",
+        "ViewPage":"otherPages/pasta_process.html",
+        "RecipeMessage":"try making Tinda Masala"
     }
+
 
 ]

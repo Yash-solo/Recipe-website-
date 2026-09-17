@@ -7,7 +7,7 @@ searchBox.addEventListener('keypress',async(e)=>{
         const response = await fetch("file.json");
         const data = await response.json();
         const updateList = data.filter((recipe)=>{
-            return recipe.RecipeName.includes(searchBox.value.toLowerCase());
+            return recipe.RecipeName.toLowerCase().includes(searchBox.value.toLowerCase());
         })
         recipeContainer.innerHTML = "";
         if(updateList.length ===0){
