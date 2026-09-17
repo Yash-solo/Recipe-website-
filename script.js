@@ -17,7 +17,7 @@ async function showRecipes(){
             <h1 class="font-semibold md:text-2xl">${recipe.RecipeName}</h1>
             <p>${recipe.RecipeMessage}</p>
         </div>
-        <button onclick="window.location.href = '${recipe.ViewPage}'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
+        <button onclick="window.location.href = '${recipe.ViewPage}?id=${recipe.id}'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
         `
         //append where you wants to show the recipes 
         recipeContainer.appendChild(recipeUnit);
