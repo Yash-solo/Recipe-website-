@@ -21,10 +21,11 @@ async function getRecipes(){
         //render recipe's process,ingredients,pic and name
         recipeHeading.textContent = Recipe.RecipeName;
         console.log(Recipe.RecipePic)
-        recipeImage.src = `/${Recipe.RecipePic}`;
+        recipeImage.src = `../${Recipe.RecipePic}`;
         recipeProcess.textContent = Recipe.RecipeMessage;
+    }else{
+        alert("wrong path of file.json")
     }
-    alert("wrong path of file.json")
 }
 //call the funtion imidiatly
 getRecipes();
