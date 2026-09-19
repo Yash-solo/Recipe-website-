@@ -7,7 +7,7 @@ const id = params.get('id');
 const recipeHeading = document.querySelector('.RecipeNameHeader');
 const recipeImage = document.querySelector('.recipeImage');
 const recipeProcess = document.querySelector('.RecipeProcess');
-
+const recipeMessage = document.querySelector('.RecipeMessage')
 
 async function getRecipes(){
     //fetch recipes when you need to show recipe
@@ -22,7 +22,9 @@ async function getRecipes(){
         recipeHeading.textContent = Recipe.RecipeName;
         console.log(Recipe.RecipePic)
         recipeImage.src = `../${Recipe.RecipePic}`;
-        recipeProcess.textContent = Recipe.RecipeMessage;
+        recipeProcess.innerHTML = Recipe.RecipeMethod;
+        recipeMessage.textContent = Recipe.RecipeMessage;
+        
     }else{
         alert("wrong path of file.json")
     }
