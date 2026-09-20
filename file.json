@@ -5,6 +5,7 @@
         "RecipeMessage":"Eat warm and sweety maalpua sweets.",
         "RecipePic":"Images/images (1).jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -13,6 +14,7 @@
         "RecipeMessage":"Eat warm and tasty Guliapaa Recipe",
         "RecipePic":"Images/images (2).jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -21,6 +23,7 @@
         "RecipeMessage":"Eat warm and sweety Belgian waffels sweets.",
         "RecipePic":"Images/images (3).jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -29,6 +32,7 @@
         "RecipeMessage":"Eat warm and tasty Chana Masala recipe",
         "RecipePic":"Images/images.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -37,6 +41,7 @@
         "RecipeMessage":"try warm and tasty Quick Chana recipe",
         "RecipePic":"Images/quick_chana.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -45,6 +50,7 @@
         "RecipeMessage":"try making pasta .",
         "RecipePic":"Images/pasta.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -53,6 +59,7 @@
         "RecipeMessage":"try making daal fry .",
         "RecipePic":"recipeImages/daal fry.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -61,6 +68,7 @@
         "RecipeMessage":"eat warm and tasty sabji aalu matar",
         "RecipePic":"recipeImages/aalu matar.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -69,6 +77,7 @@
         "RecipeMessage":"try making aalu naan .",
         "RecipePic":"recipeImages/aalu naan.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -77,6 +86,7 @@
         "RecipeMessage":"try making aalu paratha .",
         "RecipePic":"recipeImages/aalu paratha.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -85,6 +95,7 @@
         "RecipeMessage":"try making bharta .",
         "RecipePic":"recipeImages/Baingan-Bharta.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -93,6 +104,7 @@
         "RecipeMessage":"try making butter naan .",
         "RecipePic":"recipeImages/butter naan.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -101,6 +113,7 @@
         "RecipeMessage":"try making butter roti .",
         "RecipePic":"recipeImages/butter roti.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -109,6 +122,7 @@
         "RecipeMessage":"try making chana masala .",
         "RecipePic":"recipeImages/chana masala.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -117,6 +131,7 @@
         "RecipeMessage":"try making chili missi roti .",
         "RecipePic":"recipeImages/chili missi roti.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -125,6 +140,7 @@
         "RecipeMessage":"try making chili lacha paratha .",
         "RecipePic":"recipeImages/chili lacha paratha.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -133,6 +149,7 @@
         "RecipeMessage":"try making chili pyaaz lacha paratha .",
         "RecipePic":"recipeImages/chili pyaz lacha paratha.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -141,6 +158,7 @@
         "RecipeMessage":"try making chili roti .",
         "RecipePic":"recipeImages/chili roti.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -149,6 +167,7 @@
         "RecipeMessage":"try making dahi .",
         "RecipePic":"recipeImages/dahi.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -157,6 +176,7 @@
         "RecipeMessage":"try making dal makhani .",
         "RecipePic":"recipeImages/dal makhani.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -165,6 +185,7 @@
         "RecipeMessage":"try making garlic naan .",
         "RecipePic":"recipeImages/garlic naan.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -173,6 +194,7 @@
         "RecipeMessage":"try making Jeera rice .",
         "RecipePic":"recipeImages/jeera rice.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -181,6 +203,7 @@
         "RecipeMessage":"try making kadhai paneer .",
         "RecipePic":"recipeImages/kadahi panner.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -188,14 +211,18 @@
         "RecipeName":"lacha paratha",
         "RecipeMessage":"try making lacha paratha .",
         "RecipePic":"recipeImages/lacha paratha.jpg",
-        "ViewPage":"otherPages/RecipeProcess.html"
+        "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
+        "RecipeMethod":"kuch bhi "
     },
     {
         "id":24,
         "RecipeName":"matar paneer",
         "RecipeMessage":"try making matar paneer.",
         "RecipePic":"recipeImages/matar paneer.jpg",
-        "ViewPage":"otherPages/RecipeProcess.html"
+        "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
+        "RecipeMethod":"kuch bhi "
     },
     {
         "id":24,
@@ -203,6 +230,7 @@
         "RecipeMessage":"try making missi roti .",
         "RecipePic":"recipeImages/misi roti.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -211,6 +239,7 @@
         "RecipeMessage":"try making mix subji .",
         "RecipePic":"recipeImages/mix subji.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -219,6 +248,7 @@
         "RecipeMessage":"try making mix veg .",
         "RecipePic":"recipeImages/mix veg.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -227,6 +257,7 @@
         "RecipeMessage":"try making onion paratha .",
         "RecipePic":"recipeImages/onion paratha.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -235,6 +266,7 @@
         "RecipeMessage":"try making palak paneer .",
         "RecipePic":"recipeImages/palak paneer.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -243,6 +275,7 @@
         "RecipeMessage":"try making palak .",
         "RecipePic":"recipeImages/palak.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -251,6 +284,7 @@
         "RecipeMessage":"try making paneer burji .",
         "RecipePic":"recipeImages/paneer burji.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -258,14 +292,18 @@
         "RecipeName":"paneer naan",
         "RecipeMessage":"try making paneer naan.",
         "RecipePic":"recipeImages/paneer naan.jpg",
-        "ViewPage":"otherPages/RecipeProcess.html"
+        "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
+        "RecipeMethod":"kuch bhi "
     },
     {
         "id":32,
         "RecipeName":"paneer paratha",
         "RecipeMessage":"try making paneer paratha .",
         "RecipePic":"recipeImages/paneer paratha.jpg",
-        "ViewPage":"otherPages/RecipeProcess.html"
+        "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
+        "RecipeMethod":"kuch bhi "
     },
     {
         "id":33,
@@ -273,6 +311,7 @@
         "RecipeMessage":"try making plain naan .",
         "RecipePic":"recipeImages/plain naan.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -281,6 +320,7 @@
         "RecipeMessage":"try making plain roti .",
         "RecipePic":"recipeImages/plain roti.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -289,6 +329,7 @@
         "RecipeMessage":"try making pulav .",
         "RecipePic":"recipeImages/pulav.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -297,6 +338,7 @@
         "RecipeMessage":"try making rajma .",
         "RecipePic":"recipeImages/rajma.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -305,6 +347,7 @@
         "RecipeMessage":"try making rayta .",
         "RecipePic":"recipeImages/rayta.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -313,6 +356,7 @@
         "RecipeMessage":"try making shahi paneer .",
         "RecipePic":"recipeImages/shahi paneer.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"First make you item good second serve it worm"
     },
     {
@@ -321,6 +365,7 @@
         "RecipeMessage":"try making tandoori roti butter .",
         "RecipePic":"recipeImages/tandoori roti butter.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
+        "ingredients":"",
         "RecipeMethod":"Make tandoori roti with buttur using tandoor."
     },
     {
@@ -329,6 +374,7 @@
         "RecipePic":"recipeImages/bhindi masala.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Bhindi Masala",
+        "ingredients":"1. Bhindi (okra), washed, dried, and chopped.<br>2. Onions, chopped.<br>3. Tomatoes, chopped or pureed.<br>4. Ginger and garlic paste.<br>5. Green chili, chopped.<br>6. Oil.<br>7. Cumin seeds.<br>8. Mustard seeds.<br>9. Curry leaves.<br>10. Asafoetida (hing).<br>11. Salt.<br>12. Red chili powder.<br>13. Garam masala powder.<br>14. Coriander powder.<br>15. Cumin powder.<br>16. Turmeric powder.",
         "RecipeMethod":"1. In a pan, add 1½ tablespoon of oil, and lightly heat it up for about a minute. To it add ½ teaspoon of cumin seeds, and then ½ teaspoon of mustard seeds, and let them roast for a minute or so.<br>2. When the mustard seeds start crackling, add 10 curry leaves, 1 chopped green chilli, and 1 teaspoon asafoetida / hing. Mix everything together, and lightly roast them for 30 seconds or so.<br>3. Then add 1 cup of chopped onions, along with 1 teaspoon of salt, and saute on medium flame for 7-8 minutes, till the onions turn light brown in color.<br>4. When the onions are done, add 1 tablespoon of ginger garlic paste, mix it in, and lightly roast it for 1-2 minutes, just until the raw smell of ginger and garlic goes away.<br>5.    Then add the spice powders (preferably all together, to avoid them from burning, so best to pre mix them and add) - ½ teaspoon red chilli powder, ½ teaspoon garam masala powder, ½ teaspoon coriander powder, ¼ teaspoon cumin powder, and ⅛ teaspoon turmeric powder. Here you can also add a splash of water and lower the flame for a bit to avoid the masalas from getting burnt.<br>6. Lightly roast the spices for about 30-60 seconds.<br> 7. step by step photos of making onion tomato base for bhindi masala<br>8. When the spices have been lightly roasted, add in ¾ cup of chopped tomatoes, and saute for 2-3 minutes, till the tomatoes have cooked down a bit.<br>9. Now to this add the pre-roasted chopped bhindi, mix it in, and saute for 5 minutes or so, till the bhindi is fully done. Here it is best to not cover the pan while cooking bhindi, so as to not incorporate any additional steam or moisture, which might make the bhindi slimy.<br>10. When done, turn off the flame, and serve hot."
     },
     {
@@ -337,6 +383,7 @@
         "RecipePic":"recipeImages/bhindi Fry.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Bhindi Fry",
+        "ingredients":"Main Ingredients:<br>1. Bhindi (okra) – 250 grams, washed, dried, and cut into 1–2 inch pieces.<br>2. Onion – 1 medium, thinly sliced (optional).<br>3. Tomato – 1 medium, chopped (optional).<br>4. Green chilies – 1–2, slit or chopped.<br><br>Spices and Seasoning:<br>1. Oil – 2–3 tablespoons (vegetable or mustard oil).<br>2. Turmeric powder – ½ teaspoon.<br>3. Red chili powder – ½ teaspoon, or to taste.<br>4. Coriander powder – ½–1 teaspoon.<br>5. Cumin seeds – ½ teaspoon.<br>6. Garam masala – ¼ teaspoon (optional).<br>7. Salt – to taste.<br>8. Amchur (dry mango powder) – ¼ teaspoon (optional).<br><br>Garnish:<br>1. Fresh coriander leaves – chopped.",
         "RecipeMethod":"1. Heat about an inch and a half of oil in a small pot and fry the bhindi in batches until it is a dark forest-y green, drain well on paper towels to remove excess oil. (see notes!)<br>2. Sliced okra pieces frying in hot oil in a black skillet, with bubbles forming around the okra as it cooks-a delicious start to any Bhindi Masala Recipe.<br>3. Add a splash of the oil into a medium saucepan or wok and put the pan on medium high heat<br>4. Now add the onions and fry them - if you like a softer more saucy bhindi then fry so the onion is translucent. I like it to have more depth and be a little drier so my preference is caramelized edges!<br>5. Stir in the green chilies, ginger and garlic pastes, sauteeing for about a minute<br>6.Sliced onions and green chilies being sautéed and caramelized in oil in a black nonstick pan, stirred with a wooden spatula for a flavorful Bhindi Masala Recipe.<br> 7. Add the tomatoes and spices and saute to create a masala. Tip: if you add a splash of water and cover the pan for 30 seconds the tomatoes break down much faster.<br>8. A black pan on a stove filled with chunky red tomato sauce simmering, steam rising against a dark background-perfect for starting your Bhindi Masala Recipe.<br>9. Gently mix in your bhindi cook on low, covered for 5 minutes.<br>10. A person pours chopped okra from a white plate into a black pan filled with tomato sauce, using a wooden slotted spoon, preparing the base for a flavorful Bhindi Masala Recipe.<br>11. Adjust seasoning (a squeeze of lemon juice is so nice), consistency with water, more chilies if needed, and enjoy!"
     
     },
@@ -346,6 +393,7 @@
         "RecipePic":"recipeImages/Bharawa bhindi.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Bharawa Bhindi",
+        "ingredients":"",
         "RecipeMethod":"1. Wash the bhindi and let it dry. I often use a paper towel to pat dry them. Then make a cut in each bhindi lengthwise without cutting through the entire length. They should still be joint at one end. Do this with every bhindi and then set them aside.<br>2. To a large bowl add desiccated coconut powder, coriander powder, cumin powder, dried mango powder (amchur), red chili powder, garam masala, turmeric powder and salt.<br>3. Mix all the spices together with a spoon. Then add 2 teaspoons of oil to the stuffing and mix it well with the spices. The stuffing for the bhindi is now ready.<br>4. Take one bhindi and stuff it with the prepared masala. Repeat with the remaining bhindis. Make sure to stuff them well with a generous amount of masala. Set them aside.<br>5. Heat 2 tablespoons of oil in a large pan on medium heat. Place the stuffed bhindi in a single layer in the pan. After 2 minutes, lower the heat to medium-low and cover the pan.<br>6. After 2 minutes, open the pan and carefully flip each bhindi. Cover the pan again and flip the bhindi again after 2 minutes.<br>7. Keep tossing the bhindi after every 2-3 minutes or so until it's tender and done. This will take around 15 minutes on low heat.<br>8. Serve bharwa bhindi hot with roti or paratha. You can squeeze some lemon juice on top before serving for extra tang or also garnish with cilantro."
     },
     {
@@ -354,6 +402,7 @@
         "RecipePic":"recipeImages/bhindi-do-pyaza-recipe.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Bhindi Do Pyaza",
+        "ingredients":"",
         "RecipeMethod":"1. Wash bhindi in water and dry them completely. Cut it into 1-inch long pieces after removing its top and tail.<br>2. Heat 1½ tablespoons oil in a pan. Add cut bhindi pieces and cook them on medium flame until they turn dark green or for 7-8 minutes. Transfer to a plate.<br>3. Heat remaining 2 teaspoons oil in same pan. Add cumin seeds and when they begin to crackle, add crushed ginger garlic. Sauté for around 30 seconds.<br>4. Add onion and green chilli pieces; sauté until onion turns light brown, approx. 1-2 minutes.<br>5. Add chopped tomatoes and cook for 2-3 minutes.<br>6. Add red chilli powder, turmeric powder and coriander-cumin powder; mix well.<br>7. Add cooked bhindi, lemon juice and salt; cook for 2-3 minutes.<br>8. Turn off the flame and transfer prepared curry to a serving bowl.<br>9. Garnish bhindi do pyaza with coriander leaves and serve hot."
     },
     {
@@ -362,6 +411,7 @@
         "RecipePic":"recipeImages/bhindiMasalaWithTomatos.jpg",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Tomato Bhindi",
+        "ingredients":"",
         "RecipeMethod":"1. Pulse the tomatoes in a food processor until mostly smooth, using 8 to 10 pulses. Set aside.<br>2. Heat 2 tablespoons of oil in a large skillet over medium heat. Add the fenugreek seeds and cook, stirring constantly, for about 10 seconds until fragrant.<br>3. Add the dried okra and cook, stirring occasionally, for about 10 minutes, until tender and charred in spots.<br>4. Reduce the heat to low. Stir in the peanuts, cilantro, salt, sugar, cumin, garlic, serrano chile, chickpea flour, coriander, turmeric, and the remaining 2 tablespoons of oil.<br>5. Cook, stirring often, for about 2 minutes, until fragrant and the peanuts are lightly toasted. Taste and adjust the salt, then remove from the heat.<br>6. To make the tomato sauce, heat the tomato mixture in a medium skillet over medium-low heat. Add the mustard seeds, sugar, chile powder, coriander, turmeric, and salt.<br>7. Bring the sauce to a simmer, then reduce the heat to medium-low. Cook, stirring occasionally, for 18 to 24 minutes, until it thickens and a spoon leaves a trail. Cover and remove from the heat.<br>8. Reheat the tomato sauce over medium-low heat for 2 to 4 minutes. Spoon it onto a serving platter and top with the bhindi mixture.<br>9. Garnish with additional peanuts and cilantro. Serve hot with roti or naan."
     },
     {
@@ -370,6 +420,7 @@
         "RecipePic":"recipeImages/karelafry.webp",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Karela Fry",
+        "ingredients":"",
         "RecipeMethod":"1. Heat oil in a frying pan or kadai.<br>2. Add the karela slices and sauté on low or medium-low heat till the slices are lightly browned. This takes about 8 to minutes, keep stirring in between.<br>3. Now, add all the dry ground spice powders and salt.<br>4. Stir and sauté for 2 to 3 minutes more on low heat.<br>5. Lastly, add the besan (gram flour) and sauté for some minutes or till the rawness of the besan goes away. This takes about 3 to 4 minutes.<br>6. Garnish with coriander leaves.<br>7. Serve Karela Fry with dal-rice, kadhi-rice or sambar-rice."
     },
     {
@@ -378,6 +429,7 @@
         "RecipePic":"recipeImages/bharwan-karela.webp",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Bharawa Karela",
+        "ingredients":"",
         "RecipeMethod":"1. Wash the karela, trim the ends, and make a lengthwise slit without cutting through. Remove the seeds and soft center.<br>2. Rub the karela with salt and turmeric, then set aside for 20 to 30 minutes. Rinse and pat dry.<br>3. Mix red chili powder, garam masala, dry mango powder, fennel powder, and salt to prepare the stuffing.<br>4. Fill each karela generously with the spice mixture and tie with kitchen thread so the filling stays inside.<br>5. Heat the oil in a pan over medium heat, then lower the heat. Place the stuffed karela in the pan.<br>6. Cover and cook on low heat, turning every 2 to 3 minutes, until browned, tender, and fork-tender. This takes about 15 to 20 minutes.<br>7. Remove the cooked karela and set aside. In the same pan, add the sliced onions and fry until crisp and golden. Add more oil if needed.<br>8. Return the karela to the pan and sauté gently with the onions. Add any leftover spice mixture and adjust the salt.<br>9. Remove the kitchen thread, garnish with chopped coriander leaves, and serve hot or warm with roti, phulka, or dal-rice."
     },
     {
@@ -386,6 +438,7 @@
         "RecipePic":"recipeImages/karela_Pyazz.webp",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Karela pyaz ki sabji",
+        "ingredients":"",
         "RecipeMethod":"1. Lightly scrape the karela and cut it into 3-inch strips.<br>2. Boil water in a pan. Add 1 teaspoon of salt, a pinch of turmeric, and the karela. Cook until the karela is half-cooked, then drain the water.<br>3. Heat oil in a pan. Add the fennel seeds and sliced onion. Sauté for 1 minute.<br>4. Add the karela and cook until all the moisture evaporates and the onion and karela become lightly pink.<br>5. Add all the dry spices and sauté for 1 minute.<br>6. Add the yogurt and cook until the moisture dries up.<br>7. Serve hot with roti or rice."
     },
     {
@@ -394,6 +447,7 @@
         "RecipePic":"recipeImages/laukysubji.webp",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Bottle Gourd Curry" ,
+        "ingredients":"",
         "RecipeMethod":"1.Rinse and peel the bottle gourd and cut into small bite size pieces. Taste and check if the bottle gourd tastes bitter. If bitter, then trash it and do not use.<br>2.Add the bottle gourd pieces, salt, curd, curry leaves, green chilies and water in a pan. Mix very well.<br>3. You can even mix the curd well in the water first and then add bottle gourd pieces, salt, curry leaves and green chilies.<br>4. Stir and cook without a lid on low to medium-low heat for 12 to 15 minutes or till the bottle gourd pieces are fully cooked.<br>5. Add the coconut milk and simmer for a minute. Don't cook much as the coconut milk will curdle otherwise."
     },
     {
@@ -402,6 +456,7 @@
         "RecipePic":"recipeImages/laukeyTomatosbji.webp",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Lauki Tomato Sabji",
+        "ingredients":"",
         "RecipeMethod":"1. Peel the bottle gourd and cut it into small pieces.<br>2. Heat oil or ghee in a pressure cooker.<br>3. Add cumin seeds and let them crackle. Add green chili and asafoetida, then cook for a few seconds.<br>4. Add the tomatoes and salt. Cook until the tomatoes become soft.<br>5. Add turmeric and the bottle gourd. Mix well.<br>6. Add 1 cup of water.<br>7. Close the cooker and cook for 3 to 4 whistles, until the bottle gourd is soft.<br>8. Let the pressure go down before opening the cooker.<br>9. Add sugar, lemon juice, and coriander if desired. Mix well.<br>10. Serve hot with roti or rice."
     },
     {
@@ -410,6 +465,7 @@
         "RecipePic":"recipeImages/tinda.webp",
         "ViewPage":"otherPages/RecipeProcess.html",
         "RecipeMessage":"try making Tinda Masala",
+        "ingredients":"",
         "RecipeMethod":"1. Heat 2 tablespoons of oil in a kadai or deep pan on medium heat.<br>2. Add 1 teaspoon cumin seeds. When they crackle, add a pinch of hing.<br>3. Add the chopped onion. Cook for 3–4 minutes, until it becomes light golden.<br>4. Add 1 teaspoon ginger-garlic paste and 1 chopped green chili. Cook for 1 minute.<br>5. Add the chopped tomatoes. Cook for 5–6 minutes, until they become soft and the oil starts to separate.<br>6. Turn the heat to low. Add ½ teaspoon turmeric, 1 teaspoon red chili powder, 2 teaspoons coriander powder, ½ teaspoon cumin powder, and 1 teaspoon salt.<br>7. Mix for 30 seconds. Do not burn the spices.<br>8. Add the prepared gourd. Mix well so the masala covers all the pieces.<br>9. Add ¼ cup water. Cover the pan and cook on low heat.<br>10. Cook tinda for 12–18 minutes or ridge gourd for 8–12 minutes. Stir once while cooking.<br>11. Check with a knife or fork. The gourd should be soft but should not break apart.<br>12. If water is left, cook without the lid for 2–3 minutes.<br>13. Add ½ teaspoon amchur and ½ teaspoon garam masala. Mix gently for 1 minute.<br>14. Turn off the heat. Add 2 tablespoons fresh coriander and mix."
     }
 
