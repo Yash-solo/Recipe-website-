@@ -6,7 +6,7 @@
 }
 .FadeIn{
     animation:fadeIn both;
-    animation-timeline: view(40% 5%);
+    animation-timeline: view();
 }
 @keyframes fadeIn {
     from{
