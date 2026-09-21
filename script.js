@@ -10,7 +10,7 @@ async function showRecipes(){
     data.map((recipe)=>{
         console.log(recipe.id);
         let recipeUnit = document.createElement("div");
-        recipeUnit.classList.add("w-full","max-w-250","border-[#ddd]","rounded-2xl","border","p-2","flex","items-center","justify-around","gap-2")
+        recipeUnit.classList.add("w-full","max-w-250","FadeIn","border-[#ddd]","rounded-2xl","border","p-2","flex","items-center","justify-around","gap-2")
         //dont' forget to add id (URL Parameter) while accessing the viewPage
         recipeUnit.innerHTML = `
         <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="${recipe.RecipePic}" alt="">
