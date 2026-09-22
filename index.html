@@ -13,21 +13,23 @@
 <body>
     <header>
         <nav>
-            <ul class="sidebar">
-                <a href="#" onclick="hideSidebar()" class="cut" height="30px"><img src="Images/cut.svg" height="30px"></a>
-                <li><a  href="#">Recipe hold</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#" onclick="show_recipe()">Recipes</a></li>
-                <li><a href="otherPages/about.html">About</a></li>
-                <li><a id="contectus">Contect</a></li>
+            <ul class="sidebar right-0 backdrop-blur-[5px] h-screen fixed hidden top-15  flex-col w-1/2  bg-[rgba(0,0,0,0.3)] ">
+                <li><a class="text-2xl w-full text-center" href="#">Home</a></li>
+                <li><a class="text-2xl w-full text-center" href="#" onclick="show_recipe()">Recipes</a></li>
+                <li><a class="text-2xl w-full text-center" href="otherPages/about.html">About</a></li>
+                <li><a class="text-2xl w-full text-center" id="contectus">Contect</a></li>
             </ul>
-            <ul>
-                <li><a href="#">Recipe hold</a></li>
-                <li class="hideonMobile"><a href="#">Home</a></li>
-                <li class="hideonMobile"><a href="#" onclick="showRecipes()">Recipes</a></li>
-                <li class="hideonMobile"><a href="otherPages/about.html">About</a></li>
-                <li><a class="hideonMobile" id="contectus">Contect</a></li>
-                <a href="#" class="menu-btn" onclick="showSidebar()"><img src="Images/menu.svg"></a>
+            <ul class="relative h-12 flex flex-row justify-around items-end">
+                <li class="fixed left-0 text-2xl"><a href="#">Recipe hold</a></li>
+                <li class="md:flex hidden"><a href="#">Home</a></li>
+                <li class="md:flex hidden"><a href="#" onclick="showRecipes()">Recipes</a></li>
+                <li class="md:flex hidden"><a href="otherPages/about.html">About</a></li>
+                <li class="md:flex hidden"><a  id="contectus">Contect</a></li>
+                <div class="menubar md:hidden flex absolute right-5 top-1/4  flex-col itmes-center justify-around gap-2">
+                    <span class="upperline transform transition-all duration-200 w-7 h-0.5 bg-white"></span>
+                    <span class="Midline w-7 h-0.5 bg-white"></span>
+                    <span class="Lowerline transform transition-all duration-200 w-7 h-0.5 bg-white"></span>
+                </div>
             </ul>
         </nav>
     </header>

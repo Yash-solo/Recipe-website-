@@ -28,13 +28,7 @@ nav {
     padding: 6px;
 }
 
-nav ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 
 nav li {
     height: 50px;
@@ -55,54 +49,17 @@ nav a:hover {
     background-color: rgb(102, 102, 102);
 }
 
-nav li:first-child {
-    margin-right: auto;
-    font-size: 28px;
-}
 
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    background-color: rgba(219, 110, 110, 0.2);
-    backdrop-filter: blur(10px);
-
-}
 footer{
     padding:12px 100px 0px 100px;
 }
-.sidebar li {
-    width: 100%;
-}
 
-.sidebar a {
-    width: 100%;
-    height: 50px;
-    color: black;
 
-}
 
-.sidebar .cut {
-    padding-left: 190px;
-}
-
-.menu-btn {
-    display: none;
-}
 
 @media (max-width:729px) {
     .hideonMobile {
         display: none;
-    }
-    .menu-btn {
-        display: flex;
     }
 }
 .recipeRecomment{
