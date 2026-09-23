@@ -4,62 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-.FadeIn{
-    animation:fadeIn both;
-    animation-timeline: view();
-}
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to{
-        opacity:1;
-        transform: translateY(0px);
-    }
-}
-nav {
-    width: 100%;
-    background-color: rgb(227, 64, 64);
-    color: white;
-    font-size: 20px;
-    font-family: "Bobby-Jones-Soft-Outline", sans-serif !important;
-    font-weight: 700;
-    padding: 6px;
-}
 
-
-
-nav li {
-    height: 50px;
+nav{
+    padding:12px 100px 12px 100px;
 }
-a{
-    cursor: pointer;
-}
-nav a {
-    height: 100%;
-    text-decoration: none;
-    color: white;
-    padding: 0px 30px;
-    display: Flex;
-    align-items: center;
-}
-
-nav a:hover {
-    background-color: rgb(102, 102, 102);
-}
-
-
 footer{
     padding:12px 100px 0px 100px;
 }
 
-
+.sidebar{
+    padding:12px;
+}
 
 
 @media (max-width:729px) {
     .hideonMobile {
         display: none;
+    }
+    nav{
+        padding:12px
     }
 }
 .recipeRecomment{
@@ -141,12 +104,7 @@ footer div span{
 
 /*Media query*/
 @media (max-width:600px) {
-    .nav {
-        font-size: 12px;
-        display: flex;
-        width: 100%;
-        gap: 10px;
-    }
+    
 
     main {
         width: 100%;

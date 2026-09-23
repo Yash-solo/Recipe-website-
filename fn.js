@@ -18,7 +18,7 @@ searchBox.addEventListener('keypress',async(e)=>{
                 //create element 
                 let recipeUnit = document.createElement("div");
                 //set karo html but don't forget to pass url paramether id while accessing the page
-                recipeUnit.classList.add("w-full","FadeIn","max-w-250","border-[#ddd]","rounded-2xl","border","p-2","flex","items-center","justify-around","gap-2")
+                recipeUnit.classList.add("w-full","max-w-250","border-[#ddd]","rounded-2xl","border","p-2","flex","items-center","justify-around","gap-2")
                 recipeUnit.innerHTML = `
                 <img class="h-25 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] rounded-2xl w-25" src="${recipe.RecipePic}" alt="">
                 <div class="flex flex-col items-center justify-around gap-1">

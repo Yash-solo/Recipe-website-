@@ -20,13 +20,9 @@ menubar.addEventListener('click',(e)=>{
     }
     if(isOpen===false){
         sidebar.style.display = "none";
-        // sidebar.classList.remove('right-0');
-        // sidebar.classList.add("relative","-right-full")
+       
     }else{
         sidebar.style.display = "flex";
-
-        // sidebar.classList.remove("-right-full");
-        // sidebar.classList.add('right-0',"relative")
     }
 
 })
