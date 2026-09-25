@@ -15,10 +15,10 @@
         <nav class="flex items-center bg-red-500 justify-between">
             <a class="text-2xl md:text-4xl font-bold text-white font-serif" href="#">Recipe hold</a>
             <ul class="flex flex-row lg:gap-10 gap-7 text-[#ddd] font-semibold">
-                <a class="hidden cursor-pointer text-[25px] md:flex" href="#">Home</a>   
-                <a class="hidden cursor-pointer text-[25px] md:flex" href="#">Recipes</a>
-                <a class="hidden cursor-pointer text-[25px] md:flex" href="#">Categories</a>
-                <a class="hidden cursor-pointer text-[25px] md:flex" href="#">Favorites</a>
+                <a class="hidden cursor-pointer text-[25px] md:flex"onclick="ShowHomepage();showRecipes();" href="#">Home</a>   
+                <a class="hidden cursor-pointer text-[25px] md:flex"onclick="showRecipePage()" href="#">Recipes</a>
+                <a class="hidden cursor-pointer text-[25px] md:flex" onclick="showcategories()"href="#">Categories</a>
+                <a class="hidden cursor-pointer text-[25px] md:flex"onclick="showFaviorate()" href="#">Favorites</a>
                 <div class="menubar md:hidden flex flex-col itmes-center justify-around gap-2">
                     <span class="upperline transform transition-all duration-200 w-7 h-0.5 bg-white"></span>
                     <span class="Midline w-7 h-0.5 bg-white"></span>
@@ -29,8 +29,8 @@
         <ul class="sidebar w-full h-1/2 backdrop-blur-[5px] md:hidden hidden items-center justify-around gap-3 flex-col bg-[#ddd]">
             <li><a class="text-[25px] text-gray-800 font-serif font-semibold w-full text-center" onclick="ShowHomepage();showRecipes();"href="#">Home</a></li><hr class="h-0.1 border border-gray-500 w-full">
             <li><a class="text-[25px] text-gray-800  font-serif font-semibold w-full text-center" href="#" onclick="showRecipePage()">Recipes</a></li><hr class="h-0.1 border border-gray-500 w-full">
-            <li><a class="text-[25px]  text-gray-800 font-serif font-semibold w-full text-center" href="otherPages/about.html">About</a></li><hr class="h-0.1 border border-gray-500 w-full">
-            <li><a class="text-[25px] text-gray-800  font-serif font-semibold w-full text-center" id="contectus">Contect</a></li>
+            <li><a class="text-[25px]  text-gray-800 font-serif font-semibold w-full text-center"onclick="showcategories()" href="#">Categories</a></li><hr class="h-0.1 border border-gray-500 w-full">
+            <li><a class="text-[25px] text-gray-800  font-serif font-semibold w-full text-center cursor-pointer"onclick="showFaviorate()" id="contectus">Favorites</a></li>
         </ul>
     </header>
     <section class="MainContent">
@@ -43,8 +43,9 @@
         </div>
        
     </footer>
-    <script type = "module"src="fn.js"></script>
     <script type= "module"src="script.js"></script>
+    <script type = "module"src="fn.js"></script>
+    <script src="menu.js"></script>
     <script src="recipe.js"></script>
 </body>
 

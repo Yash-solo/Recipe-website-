@@ -1,9 +1,12 @@
 //recipe container which will show recipes
 export const recipeContainer =  document.querySelector('#recipeRecomment');
+export let searchBox = document.querySelector('.RecipeSearch');
 
 //show recipe function which fetch recipes and show on the screen 
-async function showRecipes(){
+export async function showRecipes(){
     //taking response
+    console.log("recipes are showing well");
+    
     const response = await fetch("./file.json");
     const data = await response.json();
     //making each recipes container
@@ -24,7 +27,3 @@ async function showRecipes(){
         recipeContainer.appendChild(recipeUnit);
     })
 }
-//Show all recipes onload timing
-window.onload = function() {
-    showRecipes();
-};
