@@ -9,6 +9,7 @@ const recipeImage = document.querySelector('.recipeImage');
 const recipeProcess = document.querySelector('.RecipeProcess');
 const recipeMessage = document.querySelector('.RecipeMessage')
 const recipeIngredients = document.querySelector('.RecipeIngredients');
+const likecheckBox = document.querySelector(".likecheckBox");
 
 async function getRecipes(){
     //fetch recipes when you need to show recipe
@@ -26,10 +27,25 @@ async function getRecipes(){
         recipeProcess.innerHTML = Recipe.RecipeMethod;
         recipeMessage.textContent = Recipe.RecipeMessage;
         recipeIngredients.innerHTML = Recipe.ingredients;
-        
     }else{
         alert("wrong path of file.json")
     }
 }
 //call the funtion imidiatly
 getRecipes();
+
+//working with checkbox 
+likecheckBox.addEventListener("change",(e)=>{
+    if(likecheckBox.checked){
+        const getPrevItem = JSON.parse(localStorage.getItem("LikedItems"))
+        if(getPrevItem!==null){
+            if(!getPrevItem.includes(id)){
+                localStorage.setItem("LikedItems",JSON.stringify([...getPrevItem,id]))
+            }
+        }else{
+            localStorage.setItem("LikedItems",JSON.stringify([id]))
+        }
+    }else{
+        console.log("Jay shree ram");
+    }
+})
