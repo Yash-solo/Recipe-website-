@@ -7,15 +7,21 @@
     <title>recipe_process</title>
     <link rel="stylesheet" href="../src/input.css">
     <link rel="stylesheet" href="../src/output.css">
+    <style>
+        .likecheckBox .active{
+            background-color: rgb(0, 157, 255);
+        }
+    </style>
 </head>
+
 
 <body>
     <nav class="w-full shadow-[0px_10px_20px_rgba(0,0,0,0.3)] flex items-start justify-between md:px-25 p-3 text-2xl text-gray-800 tracking-[5px] font-serif font-semibold">
         <h1 class="RecipeNameHeader ">RecipeName</h1>
         
         <label style="padding:5px 0px 0px 5px;"class="cursor-pointer   shadow-[0px_0px_5px_rgba(0,0,0,0.3)] rounded-[50%] border border-gray-300 items-center justify-around inline-flex">
-            <input  type="checkbox"  class="likecheckBox peer sr-only"/>
-            <span class="text-4xl text-gray-300
+            <input type="checkbox"  class="likecheckBox peer sr-only"/>
+            <span class="spanBox text-4xl text-gray-300
             peer-checked:text-red-500
             ">❤</span>
         </label>

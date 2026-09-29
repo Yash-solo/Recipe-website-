@@ -144,7 +144,7 @@ async function showRecipes(){
         <div class="flex flex-col items-center justify-around gap-1">
             <h1 class="font-semibold md:text-2xl">${recipe.RecipeName}</h1>
             <p>${recipe.RecipeMessage}</p>
-        </div>
+        </div>  
         <button onclick="window.location.href = '${recipe.ViewPage}?id=${recipe.id}'" class="border border-[#ddd] cursor-pointer rounded-2xl shadow-[0px_5px_5px_rgba(0,0,0,0.5)]">View recipe</button>
         `
         //append where you wants to show the recipes 

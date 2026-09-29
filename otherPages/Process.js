@@ -2,6 +2,7 @@
 const params = new URLSearchParams(window.location.search);
 //choose id from parameter
 const id = params.get('id');
+const checked = params.get('checked');
 
 //where you wants to render
 const recipeHeading = document.querySelector('.RecipeNameHeader');
@@ -49,3 +50,9 @@ likecheckBox.addEventListener("change",(e)=>{
         console.log("Jay shree ram");
     }
 })
+
+if(checked){
+    document.querySelector(".spanBox").classList.add("text-red-500");
+}else{
+    document.querySelector('.spanBox').classList.remove("text-red-500");
+}
